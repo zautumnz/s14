@@ -7,7 +7,9 @@
     "name": "Autumn Z"
   },
   "license": "MIT",
-  "bin": "./index.js",
+  "bin": {
+    "s14": "index.js"
+  },
   "scripts": {
     "preversion": "npm t && sortpack",
     "test": "npm run test:lint",
@@ -16,7 +18,7 @@
   "homepage": "https://github.com/zautumnz/s14#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zautumnz/s14.git"
+    "url": "git+https://github.com/zautumnz/s14.git"
   },
   "bugs": "https://github.com/zautumnz/s14/issues",
   "keywords": [
