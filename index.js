@@ -1,9 +1,3 @@
 #!/usr/bin/env node
 
-const main = () => {
-
-}
-
-if (!module.parent) {
-    main()
-}
+console.log('coming soon')
