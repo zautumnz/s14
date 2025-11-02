@@ -10,5 +10,5 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 const imgs = readdirSync(resolve(__dirname, dir))
 const rand = imgs[Math.floor(Math.random() * imgs.length)]
-const p = await t.file(resolve(dir, rand))
+const p = await t.file(resolve(__dirname, dir, rand))
 console.log(p)
