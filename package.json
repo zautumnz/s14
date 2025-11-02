@@ -1,18 +1,17 @@
 {
   "name": "s14",
   "description": "s14",
+  "type": "module",
   "version": "0.0.1",
   "author": {
     "name": "Autumn Z"
   },
   "license": "MIT",
-  "main": "index.js",
   "bin": "./index.js",
   "scripts": {
     "preversion": "npm t && sortpack",
-    "test": "npm run test:lint && npm run test:tape",
-    "test:lint": "standard",
-    "test:tape": "tape test.js"
+    "test": "npm run test:lint",
+    "test:lint": "standard"
   },
   "homepage": "https://github.com/zautumnz/s14#readme",
   "repository": {
@@ -21,15 +20,18 @@
   },
   "bugs": "https://github.com/zautumnz/s14/issues",
   "keywords": [
-    "",
-    "s14"
+    "s14",
+    "sohyun",
+    "triples"
   ],
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=24.0.0"
   },
   "devDependencies": {
     "sortpack": "3.0.0",
-    "standard": "17.1.2",
-    "tape": "5.9.0"
+    "standard": "17.1.2"
+  },
+  "dependencies": {
+    "terminal-image": "4.1.0"
   }
 }
